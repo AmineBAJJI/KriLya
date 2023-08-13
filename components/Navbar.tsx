@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { CustomButton } from ".";
+
 const Navbar = () => {
   return (
     <header>
@@ -17,7 +18,7 @@ const Navbar = () => {
         <CustomButton
           title="Sign in"
           btnType="button"
-          containerStyles="text-purple-400 rounded-full bg-white min-w-[130px]"
+          containerStyles="text-white rounded-full bg-purple-400 min-w-[130px]"
         />
       </nav>
     </header>
